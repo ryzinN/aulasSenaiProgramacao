@@ -3,17 +3,20 @@
 #include <time.h>
 #include <string.h>
 
+void abertura (int multiplicador){
+    //aqui não enxergamos a variavel multiplicador
+    printf("Tabuada do: \n");
+    printf("Quero imprimir o multiplicador aqui, mas não consigo...");
+}
+
 int main(){
     
-    printf("Escola Senai \n");
-    printf("Euclides Facchini Votuporanga\n");
-    printf("Alison Keiji Kubota\n");
+    int multiplicador = 2;
+    //passar um inteiro diretamente
+    abertura(multiplicador);
 
-    int numero;
-    printf("Digite um numero inteiro: ");
-    scanf("%d", &numero);
-
-    for(int i = 1; i <= 10; i++){
-    printf("%d x %d : %d\n",numero, i, numero * i);
+    for(int i = 0; i < 10; i++){
+        int resultado = multiplicador * 1;
+        printf("%d %d %d", i, multiplicador, resultado);
     }
-}
+} 
