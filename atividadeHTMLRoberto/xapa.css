@@ -1,0 +1,35 @@
+.cardapio li{
+    padding: 30px 1px;
+    vertical-align: top;
+    margin: 1.5%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+
+body{
+    background-color: rgb(184, 184, 184);
+}
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav a:hover{
+    color: rgba(230, 23, 23, 0.8);
+    text-decoration: underline;
+}
+.cardapio li:hover{
+    border-color: #ffee00;
+}
+.cardapio li:hover h2{
+    font-size: 34px;
+}
+footer {
+    text-align: center;
+    background-image: url(rodapezin.jpg);
+    padding: 40px 0;
+}

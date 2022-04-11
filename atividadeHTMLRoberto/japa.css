@@ -1,0 +1,49 @@
+#banner{
+    width: 100%;
+}
+
+.tituloprincipal{
+    text-align: center;
+    font-size: 56px;
+}
+body{
+    background-color: rgb(207, 231, 231);
+}
+.principal{
+    background-color: antiquewhite;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.itens{
+    font-style: italic;
+    font-size: 47px;
+}
+.textocentralizado{
+    font-size: 50px;
+}
+.promo{
+    color: brown;
+}
+.imagembeneficios{
+    width: 50%;
+}
+.embaixo{
+    background: #b3aeae;
+    padding: 50px;
+    padding-top: 40px;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    text-align: center;
+    margin-left: 20%;
+}
