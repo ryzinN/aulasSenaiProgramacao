@@ -1,0 +1,58 @@
+body{
+    background: url("trampo.jfif") center/cover;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #ff0000;
+    border: 0;
+    margin-bottom: 7em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 43%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px #000000;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover,{
+    background: #ff0127;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+}
+
+.botao2{
+    font-size: 1.2em;
+    background: #ff0000;
+    border: 0;
+    margin-bottom: 7em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 56%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.botao2:hover,{
+    background: #ff0127;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao2, select{
+    cursor: pointer;
+}
