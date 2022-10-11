@@ -1,0 +1,48 @@
+body{
+    background: url("2586833.jpg") center center/cover;
+}
+
+table{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: green;
+    font-size: 27pt;
+    text-shadow: 5px 3px 6px #ff0000;
+}
+
+b{
+    font-size: 20pt;
+    color: green;
+    text-shadow: 5px 3px 6px #002aff;
+}
+
+button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41};
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  table{
+    margin-top: 1.6%;
+    margin-bottom: 2%;
+  }
