@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<head>
+<title>Consulta Veiculos</title>
+</head>
+<body>
+    <main>
+        <form method="post" action="consultaBancoVeiculos.php">
+
+            <center><h1>Consulta Ao Banco De Dados</h1><br>
+            <b>Selecione A Opção Por Qual Deseja Buscar</b><br>
+            <br>
+            <b>ID</b>
+            <input type="text" name="dado[]" placeholder="Digite o ID">
+           
+            <b>PLACA</b>
+            <input type="text" name="dado[]" placeholder="Digite a PLACA">
+            
+            <b>COR</b>
+            <input type="text" name="dado[]" placeholder="Digite a COR">
+            
+            <b>MODELO</b>
+            <input type="text" name="dado[]" placeholder="Digite o MODELO">
+            
+            <b>CHASSI</b>
+            <input type="text" name="dado[]" placeholder="Digite o CHASSI">
+            
+            <b>MARCA</b>
+            <input type="text" name="dado[]" placeholder="Digite a MARCA">
+            
+            <b>ANO</b>
+            <input type="text" name="dado[]" placeholder="Digite o ANO"><br>
+            
+            </br>
+            <br><button id="consulta">CONSULTA</button><br>
+        </form>
+        <form action = "homeDetranSenai.html">
+        <br><input type="submit" value="VOLTAR A PÁGINA INICIAL" size="10">
+        </form>
+        </center>
+    </main>
+</body>
+</head>
+</html>

@@ -1,0 +1,12 @@
+.linhaa{
+    background: rgb(253, 217, 149);   
+}
+.colunaa{
+    background: rgb(253, 217, 149);
+}
+input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
