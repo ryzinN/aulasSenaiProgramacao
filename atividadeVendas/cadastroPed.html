@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="cadastroPed.css" media="screen">
+
+        <title>Realizar Pedido</title>
+    </head>
+    <body>  
+        <div>
+            <h1 id="titulo">Cadastro de Pedidos</h1>
+            <p id="subtitulo">Complete com as seguintes informações:</p>
+            <br>
+        </div>
+        <form method="post" action="cadastroPed.php">
+            <fieldset class="grupo">
+                <div class="campo">
+                    
+                    <label for="emissao"><strong style="color: rgb(0, 0, 0); font-size: 15pt;">Número da NF</strong></label>
+                    <input type="text" name="Ped_nf"required placeholder="Insira o N° da NF">
+        
+                    <label for="dtemissao"><strong style="color: rgb(0, 0, 0); font-size: 15pt;">Data De Emissão NF</label>
+                    <input type="date" name="Ped_dtemissao" require>
+                    
+                    <label for="frete"><strong style="color: rgb(0, 0, 0); font-size: 15pt;">Frete (R$)</strong></label>
+                    <input type="number" name="Ped_frete"required placeholder="R$">
+
+                    <label for="dtsaida"><strong style="color: rgb(0, 0, 0); font-size: 15pt;">Data De Saída Pedido</strong></label>
+                    <input type="date" name="Ped_datasaida"required>
+
+                    <label for="vendedor"><strong style="color: rgb(0, 0, 0); font-size: 15pt;">Vendedor</strong></label>
+                    <input type="text" name="Ped_Vendedor"required placeholder="Vendedor" style="padding: 1px">
+
+                    <label for="cliente"><strong style="color: rgb(0, 0, 0); font-size: 15pt;">Cliente</strong></label>
+                    <input type="text" name="Ped_Cliente"required placeholder="Cliente" style="padding: 1px">
+
+                </div>
+            </fieldset> 
+            <button class="botao" type="submit">Cadastrar Pedido</button>            
+        </form>
+    </body>
+</html>

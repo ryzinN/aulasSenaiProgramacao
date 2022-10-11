@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <link rel="stylesheet" type="text/css" href="cadastroVendedor.css" media="screen">
+
+        <title>Cadastro Vendedor</title>
+    </head>
+    <body>  
+        <div>
+            <h1 id="titulo">Cadastro de Vendedores</h1>
+            <p id="subtitulo">Complete com as seguintes informações:</p>
+            <br>
+        </div>
+        <form method="post" action="cadastroVendedor.php">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong style="color: rgb(255, 0, 0); font-size: 15pt;">Nome:</strong></label>
+                    <input type="text" name="Vend_nome"required>
+        
+                    <label for="cpf"><strong style="color: rgb(255, 0, 0); font-size: 15pt;">CPF:</label>
+                    <input type="text" name="Vend_cpf" required>
+                    
+                    <label for="rg"><strong style="color: rgb(255, 0, 0); font-size: 15pt;">RG:</strong></label>
+                    <input type="text" name="Vend_rg"required>
+
+                    <label for="rg"><strong style="color: rgb(255, 1, 1); font-size: 15pt;">Telefone:</strong></label>
+                    <input type="text" name="Vend_tel"required>
+
+                    <label for="rg"><strong style="color: rgb(255, 0, 0); font-size: 15pt;">PIS:</strong></label>
+                    <input type="text" name="Vend_pis"required>
+
+                    <label for="endereco"><strong style="color: rgb(255, 0, 0); font-size: 15pt;">Endereço:</strong></label>
+                    <input type="text" name="Vend_endereco" required>
+
+                    <label for="gerente"><strong style="color: rgb(255, 0, 0); font-size: 15pt;" >Gerente:</strong></label>
+                    <input type="text" name="Vend_gere"required>
+                </div>
+            </fieldset> 
+            <button class="botao" type="submit">Cadastrar Vendedor</button>            
+        </form>
+    </body>
+</html>

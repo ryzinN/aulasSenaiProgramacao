@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="consultaCli.css" media="screen">
+        <title>Consulta Clientes</title>
+    </head>
+    <body>  
+        <div>
+            <h1 id="titulo">Consulta Clientes</h1>
+            <p id="subtitulo">Digite por qual campo deseja realizar a consulta:</p>    
+            <br>
+        </div>
+        <form method="post" action="consultaCli.php">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>ID:</strong></label>
+                    <input type="text" name="dado[]" placeholder="Digite o ID">
+                
+                    <label><strong>Nome Cliente:</strong></label>
+                    <input type="text" name="dado[]" placeholder="Digite o Nome">
+                
+                    <label><strong>RG:</strong></label>
+                    <input type="text" name="dado[]" placeholder="XX.XXX.XXX-X">
+
+                    <label><strong>CPF:</strong></label>
+                    <input type="text" name="dado[]" placeholder="XXX.XXX.XXX-XX">
+    
+                    <label><strong>Data De Nascimento:</strong></label>
+                    <input type="date" name="dado[]">
+
+                    <label><strong>Genero:</strong></label>
+                    <select name="genero" required>
+                        <option selected disabled>Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outros</option>
+                    </select>
+                    <label><strong>Endereço:</strong></label>
+                    <input type="text" name="dado[]" placeholder="Informe Seu Endereço">
+
+                    <label><strong>Telefone:</strong></label>
+                    <input type="text" name="dado[]" placeholder="(XX) XXXXX-XXXX">
+
+                    <label><strong>Contato:</strong></label>
+                    <input type="email" name="dado[]" placeholder="exemplo@seuemail.com">
+                    
+                    <button class="botao" type="submit" onsubmit="">Consultar</button>
+                </div>
+            </fieldset>     
+            </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;    
+	background: black center center/cover;
+    background-image: url(database.png) ;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    top: 29%;
+    text-shadow: 1px 1px 3px #000000;
+    font-size: 60px;
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    top: 29%;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#btn-update{
+    padding: 10px;
+    background-color: aqua;
+    width: 20%;
+}
+
+#btn-delete{
+    padding: 10px;
+    background-color: aqua;
+    width: 20%;
+}
+

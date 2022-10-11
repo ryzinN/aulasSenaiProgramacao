@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="consultaPed.css" media="screen">
+        <title>Consulta Produtos</title>
+    </head>
+    <body>  
+        <div>
+            <h1 id="titulo">Consulta Pedidos</h1>
+            <p id="subtitulo">Digite por qual campo deseja realizar a consulta:</p>    
+            <br>
+        </div>
+        <form method="post" action="consultaPed.php">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>ID:</strong></label>
+                    <input type="text" name="dado[]" placeholder="Digite o ID">
+                
+                    <label><strong>N° Nota Fiscal:</strong></label>
+                    <input type="text" name="dado[]" placeholder="Digite o N°">
+                
+                    <label><strong>Data De Emissão:</strong></label>
+                    <input type="date" name="dado[]" placeholder="Digite a Data">
+
+                    <label><strong>Data De Saída:</strong></label>
+                    <input type="date" name="dado[]" placeholder="Digite a Quantidade">
+    
+                    <label><b>Frete:</b></label>
+                    <input type="text" name="dado[]" placeholder="R$">
+
+                    <label><b>Vendedor:</b></label>
+                    <input type="text" name="dado[]" placeholder="Vendedor">
+
+                    <label><b>Cliente:</b></label>
+                    <input type="text" name="dado[]" placeholder="Cliente">
+
+                    <button class="botao" type="submit" onsubmit="">Consultar</button>
+                </div>
+            </fieldset>     
+            </form>
+    </body>
+</html>
