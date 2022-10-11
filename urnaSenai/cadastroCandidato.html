@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="cadastroCandidato.css" media="screen">
+        <title>Cadastro Candidatos</title>
+    </head>
+    <body>  
+
+        <div>
+            <h1 id="titulo">Cadastro de Candidatos</h1>
+            <p id="subtitulo">Complete com suas informações</p>
+            <br>
+        </div>
+
+        <form method="post" action="cadastroCandidato.php" enctype="multipart/form-data">
+            <fieldset class="grupo">
+
+                <div class="campo">
+                    <label for="nome"><strong>Nome Do Candidato:</strong></label>
+                    <input type="text" name="nome"required placeholder="Informe Seu Nome">
+                </div>
+                <div class="campo">
+                    <label for="numero"><strong>Número Do Candidato:</strong></label>
+                    <input type="number" name="numero"required  placeholder="Informe o Número do Candidato">
+                </div>
+                <div class="campo">
+                    <label for="foto"><strong>Foto Do Candidato:</strong></label>
+                    <input type="file" accept="image/png,image/jpeg,image/jpg" id="upload" name="upload" required />
+                </div>
+                <script>
+                    var upload = document.getElementById("upload");
+                        upload.addEventListener("change", function(e) {
+                            var size = upload.files[0].size;
+                            if(size < 10000000) {          
+                            alert('Permitido');
+                            } else {           
+                            alert('Não permitido');
+                            upload.value = "";      
+                            }
+                            e.preventDefault();
+                        });
+                </script>
+            </fieldset>
+            <button class="botao" type="submit">ENVIAR</button>           
+        </form>
+    </body>
+</html>
